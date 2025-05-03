@@ -1,0 +1,24 @@
+# Node modules (don't push these!)
+node_modules/
+
+# Cypress stuff
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables (if you ever use .env)
+.env
+
+# Coverage reports (if you use coverage tools like nyc or istanbul)
+coverage/
+
+# GitHub Actions temporary files (just in case)
+.github/workflows/*.log
